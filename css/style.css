@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:floralwhite;
+  min-width: 1100px;
+  margin: 0 auto;
+} 
+
+/* start header part */
+.container{
+    height:164px;
+    background-color: slategray;
+}
+
+.photo{
+    float: left;
+    margin: 20px;
+    padding:10px;
+    border:2px solid wheat;
+    background-color:cadetblue;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+.header-bio{
+    float: left;
+    margin-top:50px;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+.contact{
+    padding: 30px;
+    float: right;
+    background:rgb(151, 148, 143);
+}
+.contact p{
+    margin: 5px;
+    padding: 5px;
+}
+.contact p a{
+    margin: 5px;
+    padding: 5px;
+}
+.contact p a:hover{
+    background-color: aliceblue;
+    color:rgb(54, 58, 65);
+}
+/* end header part */
+
+
+/* start benar part */
+
+/* start personal information part */
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+   }
+section{
+    background-color: darkslategrey;
+   height: 148px;;
+  
+}
+.infometion-heading{
+    width: 33.33%;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 60%;
+    background-color: aquamarine;
+    color:lightslategray;
+}
+.infometion-definetion{
+    width:auto;
+    float:left;
+    padding: 20px;
+}
+/* end personal information part */
+   
+.rul{
+   border: 2px solid darkseagreen;
+}
+/* strat educational part */
+.educational-informetion{
+    height: 445px;;
+    background-color: mediumslateblue;
+
+}
+.left-div{
+    float: left;
+    width: 33.33%;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+
+}
+.right-div{
+    float: left;
+    width: 66.67;
+    padding: 20px;
+  
+    
+}
+/* end educational part */
+
+/* start works experanc part */
+.works-experance{
+    background-color:rgb(204, 194, 204);
+    height: 366px;;
+  
+}
+.works-information{
+    float: left;
+    width: 33.33%;
+}
+.left{
+    float: left;
+    padding: 20px;
+    width: 22%;
+}
+.right{
+    float: left;
+    padding: 20px;
+    width:40%;
+}
+
+/* end works-experanc part */
+
+/* start benar part */ 
+
+/*start futer item*/
+.footer-item{
+    height:60px;
+    text-align: center;
+    background-color:darkslategray
+    
+}
+.footer-item a{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color:rgb(105, 87, 87);
+   margin: 20px;
+   margin-top: 5px;
+    padding: 2px;
+}
+.footer-item p{
+    margin-top: 10px;
+    color:dimgrey;
+}
+
+
+
+/*start futer item*/ 
